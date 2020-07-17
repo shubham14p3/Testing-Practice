@@ -19,6 +19,4 @@ Calculator.prototype.substract = function substract() {
   return this.num1 - this.num2;
 };
 
-console.log(new Calculator(8, 4).add());
-
-module.export = Calculator;
+module.exports = Calculator;
