@@ -1,6 +1,6 @@
-const analyze = require("../src/analyze");
+const analyze = require('../src/analyze');
 
-test("Returns an object with average, min, max, and length", () => {
+test('Returns an object with average, min, max, and length', () => {
   expect(analyze([1, 8, 3, 4, 2, 6])).toStrictEqual({
     average: 4,
     min: 1,
