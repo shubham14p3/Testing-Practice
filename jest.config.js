@@ -7,6 +7,9 @@ module.exports = {
 
   // Stop running tests after `n` failures
   // bail: 0,
+  transform: {
+    "^.+\\.jsx?$": "babel-jest",
+  },
 
   // The directory where Jest should store its cached dependency information
   // cacheDirectory: "C:\\Users\\shubh\\AppData\\Local\\Temp\\jest",
@@ -132,7 +135,7 @@ module.exports = {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  testEnvironment: 'node',
+  testEnvironment: "node",
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},

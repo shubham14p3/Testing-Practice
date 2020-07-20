@@ -1,4 +1,4 @@
-const Calculator = require('../src/calculator.js');
+import Calculator from '../src/calculator';
 
 test('calculator function', () => {
   const calc = new Calculator(8, 4);
