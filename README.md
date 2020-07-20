@@ -1,65 +1,55 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Testing Practice
 
-# Project Name
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-> One paragraph statement about the project.
+In this project, we are building Unit Testing that test several different functions with TDD (Jest). Test Driven Development(TDD) with Jest. There are many test-running systems available in JavaScript: Mocha, Jasmine, Tape and Jest.
 
-![screenshot](./app_screenshot.png)
+### Screenshot
 
-Additional description about the project and its features.
+![screenshot1](src/assets/images/screenshot1.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- JavaScript
+- NPM
+- Jest
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+## Usage
+- Clone the repo and move into the project directory
+- Run "npm install"
+- Run "npm run test"
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get started with the app, cd to the directory where you would like the repo to live by typing on your terminal:
 
+Clone the repo typing:
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+```
+$git clone https://github.com/shubham14p3/Testing-Practice.git
+```
 
 ## Authors
 
-👤 **Author1**
+👤 **Cyrus Kiprop**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [Cyrus-Kiprop](https://github.com/Cyrus-Kiprop)
+- Twitter: [@kipropJS](https://twitter.com/kipropJS)
+- Linkedin: [Cyrus Kiprop](https://www.linkedin.com/in/cyrus-kiprop-ba7320120/)
 
-👤 **Author2**
+👤 **Shubham Raj**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@ShubhamRaj](https://github.com/shubham14p3)
+- Linkedin: [Shubham14p3](https://www.linkedin.com/in/shubham14p3/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/shubham14p3/Testing-Practice/issues/).
 
 ## Show your support
 
@@ -67,10 +57,19 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Project requested by [Microverse Program](https://www.microverse.org/).
 
-## 📝 License
+## Future Enhancement 
 
-This project is [MIT](lic.url) licensed.
+- Adding More Unit Testing.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/shubham14p3/Testing-Practice.svg?style=flat-square
+[contributors-url]: https://github.com/shubham14p3/Testing-Practice/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/shubham14p3/Testing-Practice.svg?style=flat-square
+[forks-url]: https://github.com/shubham14p3/Testing-Practice/network/members
+[stars-shield]: https://img.shields.io/github/stars/shubham14p3/Testing-Practice.svg?style=flat-square
+[stars-url]: https://github.com/shubham14p3/Testing-Practice/stargazers
+[issues-shield]: https://img.shields.io/github/issues/shubham14p3/Testing-Practice.svg?style=flat-square
+[issues-url]: https://github.com/shubham14p3/Testing-Practice/issues
